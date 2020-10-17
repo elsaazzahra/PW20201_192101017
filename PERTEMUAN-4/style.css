@@ -1,0 +1,51 @@
+table {
+	border : none;
+    border-collapse: collapse;
+    background-color: black;
+    height: 100%;
+    width: 50%;
+}
+td{
+	padding: 10px;
+    border: none;
+
+}
+
+
+input[type=text]{
+	padding: 10px;
+	width: 410px;
+	border-style: solid;
+	text-align: right;
+	font-size: 16px;
+}
+input[type=text]:disabled{
+	background-color: white;
+}
+.btn {
+	width: 100px;
+	height: 40px;
+	background-color: #535c68;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.opr{
+		background-color: #ffa502;
+}
+.clr{
+	background-color: #f44336;;
+}
+.hsl{
+    background-color: #008CBA;
+    width: 100px;
+	height: 40px;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
