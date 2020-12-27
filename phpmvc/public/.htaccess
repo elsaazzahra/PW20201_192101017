@@ -1,6 +1,5 @@
-Options -Multiviews 
-
+Options -Multiviews
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond 5{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php?url=$1 [L]

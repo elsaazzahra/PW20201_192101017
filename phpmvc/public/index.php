@@ -1,6 +1,6 @@
-<?php 
-    require_once '../app/init.php';
+<?php
+if (!session_id()) session_start();
 
-    $app = new App; //instalasiasi class App
+require_once '../app/init.php';
 
-    
+$app = new App; //instansiasi class App
